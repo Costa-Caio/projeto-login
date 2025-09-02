@@ -57,7 +57,50 @@ div#formulario p {
     padding-bottom: 10px;
 }
 
+.campo label {
+    font-size: 0.7em;
+}
 
+.campo {
+    width: 100vw;
+    height: 30px;
+}
 
+.config-senha {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #744c02;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
 
+.config-senha:hover {
+    background-color: #b87903;
+}
 
+.botao {
+     display: block;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.botao {
+    text-align:center;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.botao:hover {
+    background-color: #744c02;
+    color: white;
+}

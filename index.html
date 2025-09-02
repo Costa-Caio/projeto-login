@@ -20,17 +20,26 @@
                     <h1>Login</h1>
                     <p>Acese aqui seu perfol para que tenha acesso a todo o ambiente e divirta-se</p>
                     <form action="" method="post" autocomplete="on">
-                        <div id="campo">
-                            <label for="iemail">Email:</label>
-                            <input type="text" name="email" id="iemail" autocomplete="email" placeholder="Digite seu E-mail aqui">
-                            <span class="material-icons">person<span>
-                        </div>
-                        <div>
-                            <label for="isenha">Senha:</label>
-                            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha"><span class="material-icons">person<span></span>
-                            
+
+                        <div class="campo">
+                            <span class="material-icons">person<span></span>
+                            <input type="text" name="email" id="iemail" autocomplete="email" placeholder="Digite seu E-mail aqui" required>
+                            <label for="iemail">Email</label>
                         </div>
 
+                        <div class="campo">
+                            <span class="material-icons">vpn_key<span></span>
+                            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required min="8" max="20">
+                            <label for="isenha">Senha</label>                            
+                        </div>
+
+                        <div>
+
+                            <input type="submit" value="Entrar" class="config-senha">
+                            <a href="esqueci-senha.html" class="botao">Esqueci minha senha <span class="material-icons senha-mail">mail<span></span></a>
+                             
+                
+                        </div>
 
                     </form>
 
